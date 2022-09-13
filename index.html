@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a Dynamic Digital Clock" />
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link rel="icon" href="#" type="image/png" sizes="16*16" />
+    <link rel="stylesheet" href="style.css" />
+    <title>تسبيح</title>
+  </head>
+  <body id="mrmge">
+    <select id="selecto" onchange="selecto()">
+      <option>سبحان الله</option>
+      <option>الحمد لله</option>
+      <option>لا اله الا الله</option>
+      <option>الله اكبر</option>
+      <option>استغفر الله العظيم</option>
+      <option>سبحان الله وبحمده سبحان الله العظيم</option>
+      <option>لا اله الا الله محمد رسول الله</option>
+      <option>اللهم صل وسلم وبارك علي سيدنا محمد</option>
+    </select>
+    <br /><br />
+    <div id="night" onclick="Night()">&#127771;</div> 
+    <div id="sun" onclick="Sun()">&#127774;</div>
+    <div id="clicks" class="circle" onclick="clickYes()">انقر هنا</div>
+    <br />
+    <form>
+      <input id="butt" type="button" onclick="clickNo()" value="تصفير العداد" />
+    </form>
+    <!-- javaScript Files -->
+    <script src="script.js"></script>
+  </body>
+</html>
